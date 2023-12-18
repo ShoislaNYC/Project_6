@@ -1,9 +1,9 @@
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: '<username>',
+  user: 'linksAPI',
   host: 'localhost',
   database: 'linksAPI',
-  password: '<password>',
+  password: '3412',
   port: 5432,
 })
 const getLinks = (req, res) => {
